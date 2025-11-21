@@ -57,9 +57,7 @@ ThreatGuard-AI-Security-Agent/
 │   │
 │   └── utils/
 │       └── logger.py        # Simple logger wrapper
-│
-└── data/
-    └── threatguard_run_report.json   # Output generated after running main.py
+-
 
 
 🧪 Running the Project on Kaggle
