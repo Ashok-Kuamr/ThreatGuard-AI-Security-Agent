@@ -1,1 +1,22 @@
+app:
+  name: "ThreatGuard AI Security Agent"
+  version: "1.0.0"
+
+logging:
+  level: "INFO"
+  log_file: "logs/threatguard.log"
+
+scanner:
+  max_file_size_mb: 50
+  allowed_extensions:
+    - ".txt"
+    - ".log"
+    - ".py"
+    - ".json"
+
+system:
+  check_cpu: true
+  check_memory: true
+  check_disk: true
+  check_network: true
 
